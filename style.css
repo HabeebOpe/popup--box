@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'PT Sans', sans-serif;
+}
+body {
+        background-color: dodgerblue;
+}
+.container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+.container .submit{
+        width: 100px;
+        padding: 8px;
+        font-size: 15px;
+        color: black;
+        border-radius: 30px;
+        background-color: white;
+        
+}
+.container .popup{
+        width: 280px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%)scale(0.01);
+        visibility: hidden;
+        transition: 0.2s linear;
+}
+.container .popup img{
+        width: 90px;
+        padding: 4px;
+} 
+.container .popup h2{
+        padding: 6px;
+}
+.container .popup p{
+        margin: 5px 10px;
+}
+.container .popup button{
+        width: 100%;
+        padding: 10px;
+        background-color: dodgerblue;
+        font-size: 18px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin: 5px 0;
+        cursor: pointer;
+}
